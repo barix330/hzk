@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <!-- Basic Page Needs
@@ -15,7 +16,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
+
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,40 +32,54 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
+
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
- 
+
   <div class="section">
-  <div class="container"> 
-  <button class="button" id="idButton">ХЗК</button> 
-
-  <select id="sexch" onchange="sexChoice()">
-    <option value="1">все подряд</option>
-    <option value="2">подруги</option>
-    <option value="3">буйволы</option>
-  </select>
+    <div class="container">
 
 
 
-  <div class="content">
 
-<p id="info"></p>
-<div id="image"><a id="vkid" target="_blank"><img id="imageid"></a></div>
-</div>
+      <div class="topnav">
+
+        
+      <div class="but">
+        <button class="button" id="idButton">ХЗК</button>
+      </div>
+
+      <div class="switch" class="u-full-width">
+        <select id="sexch" onchange="sexChoice()">
+          <option value="1">м + ж</option>
+          <option value="2">ж</option>
+          <option value="3">м</option>
+        </select>
+      </div>
+
+
+      </div>
+
+      <div class="content">
+
+        <p id="info"></p>
+        <div id="image"><a id="vkid" target="_blank"><img id="imageid"></a></div>
+      </div>
 
 
 
-<div id="message"></div>
+      <div id="message"></div>
 
 
 
+    </div>
   </div>
-  </div>
 
 
-<!-- End Document
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>
